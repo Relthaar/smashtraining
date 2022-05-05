@@ -1,8 +1,8 @@
 import { PracticeSet } from "@/store";
 import { entries } from "@/utils";
+import { getTechDependencies } from "./AllTechDependencies";
 import {
   AllTechMetadata,
-  getTechDependencies,
   serializeTechVariant,
   TechId,
   TechVariantOf,
